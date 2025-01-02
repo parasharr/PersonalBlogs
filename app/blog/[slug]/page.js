@@ -13,7 +13,7 @@ const client = new Client();
 
 client
   .setEndpoint("https://cloud.appwrite.io/v1")
-  .setProject("677421ac00001f35d16e");
+  .setProject("677636cb00163075da19");
 
 const Blog = ({ params: { params } }) => {
   const [blogPost, setBlogPosts] = useState(null);
@@ -28,8 +28,8 @@ const Blog = ({ params: { params } }) => {
       try {
         const databases = new Databases(client);
         const response = await databases.listDocuments(
-          "67742276002e9dce38fd",
-          "6774229f000dabac44ed",
+          "677637e100164f985ecc",
+          "677637f10030fb916a55",
 
           [Query.equal("slug", slug)]
         );
@@ -139,22 +139,13 @@ const Blog = ({ params: { params } }) => {
           dangerouslySetInnerHTML={{ __html: blogPost.func }}
         ></p>
 
-        <h2 className="text-2xl font-bold mb-1">Errors :</h2>
+        <h2 className="text-2xl font-bold mb-1">Problems & Solutions :</h2>
         <p className="text-zinc-500 mb-4">
-          Potential Errors During Project Creation
+          Potential Errors and their Solutions During Project Creation
         </p>
         <p
           className="text-lg mb-10"
-          dangerouslySetInnerHTML={{ __html: blogPost.problems }}
-        ></p>
-
-        <h2 className="text-2xl font-bold mb-1">Solutions :</h2>
-        <p className="text-zinc-500 mb-4">
-          Their Solutions During Project Creation
-        </p>
-        <p
-          className="text-lg mb-10"
-          dangerouslySetInnerHTML={{ __html: blogPost.solution }}
+          dangerouslySetInnerHTML={{ __html: blogPost.problems_solutions }}
         ></p>
 
         <h2 className="text-2xl font-bold mb-1">Project Links :</h2>

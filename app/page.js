@@ -10,7 +10,7 @@ const client = new Client();
 
 client
   .setEndpoint("https://cloud.appwrite.io/v1")
-  .setProject("677421ac00001f35d16e");
+  .setProject("677636cb00163075da19");
 
 export default function Home() {
   const [blogPosts, setBlogPosts] = useState([]);
@@ -22,8 +22,8 @@ export default function Home() {
     const fetchPosts = async () => {
       try {
         const response = await databases.listDocuments(
-          "67742276002e9dce38fd",
-          "6774229f000dabac44ed",
+          "677637e100164f985ecc",
+          "677637f10030fb916a55",
         );
         setBlogPosts(response.documents);
       } catch (error) {
