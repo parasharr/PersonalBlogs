@@ -155,7 +155,7 @@ const Blog = ({ params: { params } }) => {
         <p className="text-lg mb-2">
           GitHub :{" "}
           <a
-            href="https://github.com/parasharr/E-commerce-clothe-website"
+            href={blogPost.git}
             target="_blank"
             className="text-blue-500 underline"
           >
@@ -166,7 +166,7 @@ const Blog = ({ params: { params } }) => {
         <p className="text-lg mb-10">
           Live Demo :{" "}
           <a
-            href="https://fashion-adda-site.netlify.app/"
+            href={blogPost.live}
             target="_blank"
             className="text-blue-500 underline"
           >
@@ -218,3 +218,4 @@ const Blog = ({ params: { params } }) => {
 };
 
 export default Blog;
+
