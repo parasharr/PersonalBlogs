@@ -148,31 +148,7 @@ const Blog = ({ params: { params } }) => {
           dangerouslySetInnerHTML={{ __html: blogPost.problems_solutions }}
         ></p>
 
-        <h2 className="text-2xl font-bold mb-1">Project Links :</h2>
-        <p className="text-zinc-500 mb-4">
-          GitHub link and Live preview of Project{" "}
-        </p>
-        <p className="text-lg mb-2">
-          GitHub :{" "}
-          <a
-            href={blogPost.git}
-            target="_blank"
-            className="text-blue-500 underline"
-          >
-            Visit Repository
-          </a>
-        </p>
-
-        <p className="text-lg mb-10">
-          Live Demo :{" "}
-          <a
-            href={blogPost.live}
-            target="_blank"
-            className="text-blue-500 underline"
-          >
-            Fashion Adda
-          </a>
-        </p>
+        
 
         <h2 className="text-2xl font-bold mb-2">Conclusion:</h2>
         <p
