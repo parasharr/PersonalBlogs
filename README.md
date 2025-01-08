@@ -49,7 +49,7 @@ Check out the live demo [here](https://personal-blogs-ln34u8vh2-parasharrs-proje
 - Sign up or log in to start creating blog posts.
 
 ## Technologies
-- **Frontend**: Next.js, React.js
+- **Frontend**: Next.js, React.js, TailwindCSS
 - **Backend**: Appwrite
 - **Deployment**: Vercel
 
