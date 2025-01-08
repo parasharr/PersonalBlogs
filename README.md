@@ -2,8 +2,6 @@
 
 A personal blog project created using Next.js and React.js for the frontend, with Appwrite service for the backend. The project is deployed on Vercel.
 
-![Demo Image](https://i.ibb.co/z6RSgnb/Screenshot-2025-01-08-121528.png)
-
 ## Live Demo
 Check out the live demo [here](https://personal-blogs-ln34u8vh2-parasharrs-projects.vercel.app/).
 
