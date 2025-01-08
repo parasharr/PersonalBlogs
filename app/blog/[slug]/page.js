@@ -132,7 +132,7 @@ const Blog = ({ params: { params } }) => {
 
         <h2 className="text-2xl font-bold mb-1">Functionality :</h2>
         <p className="text-zinc-500 mb-4">
-          My e-commerce website includes several key functionalities
+          This Project includes several key functionalities
         </p>
         <p
           className="text-lg mb-10"
